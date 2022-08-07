@@ -9,5 +9,22 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_05 {
+    public static void main(String[] args) {
 
+        int[] numbers = new int[20];
+
+
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[(numbers.length - 1) - i] = i;
+
+        }
+        for (int i = 0; i < numbers.length; i++) {
+            if (i % 2 == 0) {
+                System.out.println(numbers[i]);
+            }
+
+        }
+    }
 }
+
+

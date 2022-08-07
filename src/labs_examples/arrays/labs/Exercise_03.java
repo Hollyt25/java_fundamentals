@@ -18,6 +18,23 @@ package labs_examples.arrays.labs;
 public class Exercise_03 {
 
     public static void main(String[] args) {
+
+        int[][] table = new int[5][5];
+
+        int count = 1;
+
+        for(int i=0; i<table.length; i++) {
+            for (int j = 0; j < table[i].length; j++) {
+                table[i][j] = count * 3;
+                count++;
+            }
+        }
+            for(int[] val : table){
+                for(int i : val){
+                    System.out.print(i + "\t");
+                }
+                System.out.println();
+            }
         
     }
 }

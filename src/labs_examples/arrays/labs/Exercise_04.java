@@ -9,5 +9,22 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_04 {
+    public static void main(String[] args) {
 
+
+        String[][] animals = {
+                { "Dog", "Cat", "Hamster", "Ferret" },
+                { "Bear", "Lion", "Elephant"},
+                { "Whale", "Shark", "Fish", "Ray", "StarFish"}
+        };
+
+        for (String[] s : animals) {
+            for (String t : s) {
+                System.out.print(t + "  ");
+            }
+            System.out.println();
+        }
+
+
+    }
 }
