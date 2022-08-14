@@ -4,8 +4,11 @@ public class DogController {
     public static void main(String[] args) {
 
         Dog dog1 = new Dog("Sparkie", "lab", 10);
+        System.out.println(dog1.toString());
         Dog dog2 = new Dog("Ralph", 7);
+        System.out.println(dog2.toString());
         Dog dog3 = new Dog("Spot");
+        System.out.println(dog3.toString());
 
     }
 }
@@ -25,5 +28,14 @@ class Dog{
     }
     public Dog(String name){
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "name='" + name + '\'' +
+                ", breed='" + breed + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
