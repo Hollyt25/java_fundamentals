@@ -1,6 +1,13 @@
 
 Without running the code below, please tell me what will print. Why?
 
+Anser:
+
+Parent called
+Child called
+
+the constructor is going to call the parent constructor first.
+
 
 
 

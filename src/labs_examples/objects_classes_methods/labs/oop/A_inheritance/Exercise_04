@@ -1,6 +1,12 @@
 
 Without running the code below, please tell me what it will print.
 
+Answer:
+
+Child called
+
+The main method calls directly to the child method doSomething();
+
 
 
 public class InheritanceTest
